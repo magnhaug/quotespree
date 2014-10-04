@@ -1,6 +1,6 @@
 var express = require('express')
-var fs = require('fs')
 var util = require('util')
+var quotebook = require('./quotebook.json')
 
 var app = express();
 
@@ -40,12 +40,5 @@ function randomInt(n) {
   return Math.floor(Math.random() * n);
 }
 
-fs.readFile('./quotebook.json', 'utf8', function (err, data) {
-  if (err) {
-    console.log('Error: ' + err);
-    return;
-  }
-  quotes = JSON.parse(data);
-  server(app, quotes);
-});
+server(app, quotebook);
 
