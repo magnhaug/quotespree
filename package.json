@@ -1,7 +1,7 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.1.2",
-  "description": "A sample Node.js app using Express 4",
+  "name": "quotespree",
+  "version": "0.0.1",
+  "description": "Quote server",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
