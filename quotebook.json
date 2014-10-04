@@ -1,0 +1,111 @@
+{ "quotes":
+{"programming":
+[
+{"quote":"Great minds discuss ideas; average minds discuss events; small minds discuss people.", "author": "Eleanor Roosevelt"},
+
+{"quote":"Focus on the data, not on the logic. The logic will emerge when you understand the data.", "author": "Bryan Pendleton"},
+
+{"quote":"Bad programmers worry about the code. Good programmers worry about data structures and their relationships.", "author": "Linus Torvalds"},
+
+{"quote":"Web embraces distribution rather than trying to hide it beneath an RPC facade.", "author": "REST in Practice"},
+
+{"quote": "Squeeze all the non-determinism out of the input stream", "author": "Jay Kreps"},
+
+{"quote": "Focus on the data, not on the logic. The logic will emerge when you understand the data.", "author": "Jay Kreps"},
+
+{"quote": "If you squint a bit, you can see the whole of your organization's systems and data flows as a single distributed database.", "author": "Jay Kreps"},
+
+{"quote": "Simplicity is prerequisite for reliability.", "author": "Edsger W. Dijkstra"},
+
+{"quote": "Object-oriented programming is an exceptionally bad idea which could only have originated in California.", "author": "Edsger Dijkstra"},
+
+{"quote": "Aim for brevity while avoiding jargon.", "author": "Edsger W. Dijkstra"},
+
+{"quote": "The use of COBOL cripples the mind; its teaching should, therefore, be regarded as a criminal offense.", "author": "Edsger W. Dijkstra"},
+
+{"quote": "Program testing can be used to show the presence of bugs, but never to show their absence!", "author": "Edsger W. Dijkstra"},
+
+{"quote": "Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway.", "author": "Andrew Tanenbaum"},
+
+{"quote": "The cleaner and nicer the program, the faster it's going to run. And if it doesn't, it'll be easy to make it fast.", "author": "Joshua Bloch"},
+
+{"quote": "Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves.", "author": "Alan Kay"},
+
+{"quote": "He who hasn't hacked assembly language as a youth has no heart. He who does as an adult has no brain.", "author": "John Moore"},
+
+{"quote": "Languages shape the way we think, or don't.", "author": "Erik Naggum"},
+
+{"quote": "There are two ways to write error-free programs; only the third one works.", "author": "Alan Perlis"},
+
+{"quote": "Real Programmers always confuse Christmas and Halloween because Oct31 == Dec25.", "author": "Andrew Rutherford"},
+
+{"quote": "Don't get suckered in by the comments … they can be terribly misleading.", "author": "Dave Storer"},
+
+{"quote": "The three chief virtues of a programmer are: Laziness, Impatience and Hubris.", "author": "Larry Wall"},
+
+{"quote": "There are two ways of constructing a software design. One way is to make it so simple that there are obviously no deficiencies. And the other way is to make it so complicated that there are no obvious deficiencies.", "author": "C.A.R. Hoare"},
+
+{"quote": "Zawinski's Law: Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can.", "author": "Jamie Zawinski"},
+
+{"quote": "Even perfect program verification can only establish that a program meets its specification. Much of the essence of building a program is in fact the debugging of the specification.", "author": "Fred Brooks"},
+
+{"quote": "The most effective debugging tool is still careful thought, coupled with judiciously placed print statements.", "author": "Brian Kernighan"},
+
+{"quote": "A good programmer is someone who looks both ways before crossing a one-way street", "author": "Doug Linder"}
+
+]
+},
+
+"jokes":
+{"programming":
+[
+{"joke": "I like my filesystems like my girlfriend; FAT and 16."},
+
+{"joke": "I use ReiserFS for it's killer features."},
+
+{"joke": "The main problem with ReiserFS is vendor lock-in."},
+
+{"joke": "Knock, knock. Who's there? ..<very long pause>..  Java!"},
+
+{"joke": "A SQL query goes into a bar, walks up to two tables and asks, \"Can I join you?\""},
+
+{"joke": "When your hammer is C++, everything begins to look like a thumb."},
+
+{"joke": "If you put a million monkeys at a million keyboards, one of them will eventually write a Java program. The rest of them will write Perl programs."},
+
+{"joke": "Whats the object-oriented way to become wealthy? Inheritance."},
+
+{"joke": "Programming is like sex: One mistake and you have to support it for the rest of your life."},
+
+{"joke": "How many prolog programmers does it take to change a lightbulb? Yes."},
+
+{"joke": "To understand what recursion is, you must first understand recursion."},
+
+{"joke": "There are 10 kinds of people in the world, those that understand binary, those that don't, and those that didn't expect this joke to be in ternary."},
+
+{"joke": "There are 11 kinds of people in the world, those that understand unary, and those that don't."},
+
+{"joke": "Why programmers like UNIX: unzip, strip, touch, finger, grep, mount, fsck, more, yes, fsck, fsck, fsck, umount, sleep"},
+
+{"joke": "Command line Russian roulette: [ $[ $RANDOM % 6 ] == 0 ] && rm -rf / || echo *Click*"},
+
+{"joke": "To get a nice unicorn in your terminal, type: :(){:|:&};:"},
+
+{"joke": "Unix is user friendly. It's just very particular about who its friends are."},
+
+{"joke": "C++ : Where friends have access to your private members."},
+
+{"joke": "If your mom was a collection class, her insert method would be public."},
+
+{"joke": "The C language combines all the power of assembly language with all the ease-of-use of assembly language."},
+
+{"joke": "Two threads walk into a bar. The barkeeper looks up and yells, \"hey, I want don't any conditions race like time last!\""},
+
+{"joke": "If Java is the answer, it must have been a really verbose question."},
+
+{"joke": "Why doesn't C++ have a garbage collector? Because there would be nothing left!"},
+
+{"joke": "Your momma is so fat that not even Dijkstra is able to find a shortest path around her."}
+]
+}
+}
