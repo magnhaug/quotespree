@@ -8,11 +8,8 @@ function server (app, quotes) {
   app.set('port', (process.env.PORT || 5000))
   app.use(express.static(__dirname + '/public'))
   
-  var printers = {"json": printJson, "text": printText }
-
   app.get('/', function(request, response) {
-    var bestAccepts = request.accepts(["text", "json"])
-    var printer = printers[bestAccepts];
+    var printer = getBestPrinter(request)
     var quote = getRandomQuote(quotes, printer)
     response.send(quote)
   })
@@ -20,6 +17,23 @@ function server (app, quotes) {
   app.listen(app.get('port'), function() {
     console.log("Node app is running at localhost:" + app.get('port'))
   })
+}
+
+function getBestPrinter(request) {
+  var accepts = request.accepts(["text", "json"])
+  var pretty = request.query["pretty"]
+
+  if (accepts === "text") {
+    return printText;
+  } else if (accepts === "json") {
+    if (pretty) {
+      return printJsonPretty
+    } else {
+      return printJson
+    }
+  } else {
+    return printUnknown
+  } 
 }
 
 function getRandomQuote(quotes, printer) {
@@ -35,7 +49,13 @@ function getRandomQuote(quotes, printer) {
   return printer(category, subcategory, quote);
 }
 
+function printJsonPretty() {
+  var json = printJson.apply(null, arguments)
+  return JSON.stringify(json, null, 2);
+}
+
 function printJson(category, subcategory, quote) {
+  console.log(arguments)
   quote.category = category
   quote.subcategory = subcategory
   return quote
@@ -49,6 +69,10 @@ function printText(category, subcategory, quote) {
   } else {
     console.log("Unknown category", category)
   }
+}
+
+function printUnknown() {
+  return "Unknown Accepts-header! Try json or text."
 }
 
 function randomInt(n) {
