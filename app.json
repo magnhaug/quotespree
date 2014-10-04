@@ -1,7 +1,7 @@
 {
   "name": "Quotespree",
   "description": "Quote server",
-  "repository": "https://github.com/heroku/node-js-getting-started",
+  "repository": "https://github.com/magnhaug/quotespree",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["node", "express", "static"]
 }
